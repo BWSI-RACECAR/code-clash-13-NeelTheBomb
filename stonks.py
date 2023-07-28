@@ -21,6 +21,7 @@ class Solution:
             for i in range(len(resultlist)):
                 if resultlist[i] > greatest:
                     graetest = resultlist[i]
+            print(greatest)
             return greatest
                     
 

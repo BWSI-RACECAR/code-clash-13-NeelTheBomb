@@ -20,7 +20,6 @@ class Solution:
             print(resultlist)
             for i in range(len(resultlist)):
                 if resultlist[i] > greatest:
-                    print(resultlist[i])
                     greatest = resultlist[i]
             print(greatest)
             return greatest

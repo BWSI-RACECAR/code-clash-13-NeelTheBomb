@@ -18,9 +18,9 @@ class Solution:
                         resultlist.append(save+save1)
             greatest = 0
             print(resultlist)
-            for i in resultlist:
-                if i > greatest:
-                    graetest = i
+            for i in range(len(resultlist)):
+                if resultlist[i] > greatest:
+                    graetest = resultlist[i]
             return greatest
                     
 

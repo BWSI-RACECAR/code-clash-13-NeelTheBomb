@@ -6,7 +6,7 @@ class Solution:
             least1 = 0
             save = 0
             save1=0
-            resultlist = 0
+            resultlist = []
             #TODO: Write code below to returnn an int with the solution to the prompt.
             count = 0
             for i in range(len(prices)):

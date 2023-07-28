@@ -16,8 +16,10 @@ class Solution:
                         save = b-i
                         save1 = c-b
                         resultlist.append(save+save1)
+                        resultlist.append(save)
+                        resultlist.append(save1)
             greatest = 0
-            print(resultlist)
+            #print(resultlist)
             for i in range(len(resultlist)):
                 if resultlist[i] > greatest:
                     greatest = resultlist[i]

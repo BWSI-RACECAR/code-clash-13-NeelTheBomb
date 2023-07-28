@@ -9,6 +9,7 @@ class Solution:
             resultlist = []
             #TODO: Write code below to returnn an int with the solution to the prompt.
             count = 0
+            print(prices)
             for i in range(len(prices)):
                 for b in range(len(prices)):
                     for c in range(len(prices)):
@@ -16,8 +17,8 @@ class Solution:
                         save = b-i
                         save1 = c-b
                         resultlist.append(save+save1)
-                        resultlist.append(save)
-                        resultlist.append(save1)
+                        # resultlist.append(save)
+                        # resultlist.append(save1)
             greatest = 0
             #print(resultlist)
             for i in range(len(resultlist)):

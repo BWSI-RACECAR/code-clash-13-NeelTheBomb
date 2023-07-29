@@ -17,7 +17,7 @@ class Solution:
             profit1.append(max1)
         for i in range(len(prices)-1,-1,-1):#backward
             x = prices[i]
-            if x > maxprice2::
+            if x > maxprice2:
                 maxprice2 = x
             else: 
                 maxprofit2 = (maxprofit2, maxprice2-x)

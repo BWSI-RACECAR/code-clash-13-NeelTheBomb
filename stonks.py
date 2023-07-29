@@ -20,7 +20,7 @@ class Solution:
             if x > maxprice2:
                 maxprice2 = x
             else: 
-                maxprofit2 = (maxprofit2, maxprice2-x)
+                maxprofit2 = max(maxprofit2, maxprice2-x)
             profit2[i] = maxprofit2
         greatest = 0
         for i in range(len(prices)):

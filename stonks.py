@@ -8,7 +8,7 @@ class Solution:
         maxprice2 = 0
         maxprofit2 = 0
         profit1 = []
-        profit2=[0]*len[prices]
+        profit2=[0]*len(prices)
         for i in prices:
             if i < least1:
                 least1 = i

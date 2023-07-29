@@ -13,7 +13,7 @@ class Solution:
             if i < least1:
                 least1 = i
             else: 
-                max1 = (max(i-least1,max1)
+                max1 = (max(i-least1,max1))
             profit1.append(max1)
         for i in range(len(prices)-1,-1,-1):#backward
             x = prices[i]
